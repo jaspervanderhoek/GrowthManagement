@@ -1,0 +1,214 @@
+.region-topbar .mx-navbar ul.nav > .mx-navbar-item.open .dropdown-menu > li.mx-navbar-subitem.active a {
+    color: #0595DB;
+    background-color: #FFF;
+}
+
+.mx-dataview .mx-dataview-controls {
+    margin-top: 0px;
+    
+}
+
+.skills-wrapper {
+    height: calc( 100vh - 363px);
+    overflow-y: scroll;
+    overflow-x: auto;
+    
+    .skills-content {
+        width: 1620px;
+        
+        .mx-listview-item {
+            padding: 0px;
+
+            div[cssselectorhelper="Odd"] {
+                background-color: #f8f8f8;
+            }
+
+            .skill-area label,
+            .skill-skill label {
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+.btn-team-summary {
+    width: 100%;
+    margin-top: 5px;
+}
+
+.chart-wrapper {
+    max-width: 500px;
+    min-width: 500
+}
+
+.categoryGrid > .mx-grid-content {
+    height: calc( 100vh - 310px) !important;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    
+    .level-definition {
+        margin: 0px;
+        .form-control-static {
+            font-size: 10px;
+            paddging: 0px;
+        }
+    }
+    .skill-name label {
+        font-weight: bold;
+        font-size: 14px;
+        padding: 5px 0px;
+    }
+    .skill-order {
+        margin: 0px;
+        
+        label,
+        div,
+        p {
+            display: inline-block;
+            font-size: 10px;
+            padding: 0px 5px;
+            vertical-align: top;
+        }
+    }
+}
+
+.employeedetail {
+    margin-right: 55px;
+}
+
+.detailgroup h2.mx-groupbox-header {
+    position: absolute;
+    right: 0px;
+    top: -11px;
+}
+
+
+.assessment-data {
+    table {
+        
+        width: auto;
+        
+        tr {
+            border-bottom: 2px solid #d7d7d7;
+        }
+        > tbody > tr > td {
+            padding-bottom: 3px;
+        }
+    
+        td:nth-child(even),
+        th:nth-child(even) {
+            background-color: #f6f6f6;
+        }
+        
+        .form-control-static {
+            border: 0px;
+        }
+        
+        
+        .employee-info {
+            width: 300px;
+        }
+        .assessment-date {
+            //width: 200px;  Width is set in the microflow
+            text-align:right;
+        }
+        .assessment-data {
+            .current, 
+            .ambition {
+                display: inline-block;
+                width: 90px;
+                text-align:right;
+                
+                label {
+                    font-size: 80%;
+                    padding-bottom: 0px;
+                    padding-top: 0px;
+                }
+            }
+            
+            .growth {
+                text-align:right;
+                
+                .control-label,
+                .attr-value {
+                    display: inline-block;
+                    vertical-align: top;
+                }
+                
+                label {
+                    font-size: 80%;
+                }
+            }
+        }
+        
+    }
+}
+
+.individual-growth div.mx-templategrid-item {
+    &:nth-child(n+2) .category {
+        display: none;
+    }
+    
+    .mx-datagrid .mx-datagrid-body-table .mx-datagrid-body tr td,
+    .mx-datagrid .mx-datagrid-head-table .mx-datagrid-head-wrapper {
+        font-size: 80%;
+        padding: 3px;
+    }
+}
+
+.mx-templategrid.templategrid-tabs {
+    margin-bottom: 30px;
+    
+    .mx-templategrid-row {
+        display: inline-table;
+        width: 180px;
+
+        .mx-templategrid-item.selected label {
+            font-weight: bold;
+        }
+    }
+}
+
+.mx-listview.no-selection .mx-listview-item:focus,
+.mx-listview.no-selection .mx-listview-item:active {
+    background-color: inherit;
+}
+
+.role-wrapper .mx-listview-item {
+    display: inline-block;
+    width: 110px;
+    padding: 0px;
+    .form-group {
+        margin: 0px;
+        label, p {
+            font-size: 10px;
+            padding: 0px;
+        }
+    }
+    
+    .role-target,
+    .role-minimum {
+        margin: 0px;
+        
+        label,
+        div,
+        p {
+            display: inline-block;
+            font-size: 10px;
+            padding: 0px 5px;
+            vertical-align: top;
+        }
+    }
+}
+
+
+.display-helper-wrapper {
+    position: absolute;
+    right: 50px;
+    top: 0px;
+    
+    .form-group {
+        display: inline-block;
+        margin: 0px 15px;
+    }
+}
